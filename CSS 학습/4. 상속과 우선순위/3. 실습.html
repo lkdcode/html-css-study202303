@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .list li.item {
+            width: 21px;
+            /* 10 + 1 + 10 */
+        }
+
+        #submit span {
+            width: 101px;
+            /* 100 + 1 */
+        }
+
+        h1 {
+            width: 1px;
+            /* 1 */
+        }
+
+        .list li:hover {
+            width: 21px;
+            /* 10 + 1 + 10 */
+        }
+
+        .box::before {
+            width: 11px;
+            /* 10 + 1 */
+        }
+
+        header .menu li:nth-child(2) {
+            width: 22px;
+            /* 1 + 10 + 1 + 10*/
+        }
+
+        :not(.box) {
+            width: 10px;
+            /* 0 + 10 */
+        }
+
+        :not(span) {
+            width: 1px;
+            /* 0 + 1 */
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+
+</html>
