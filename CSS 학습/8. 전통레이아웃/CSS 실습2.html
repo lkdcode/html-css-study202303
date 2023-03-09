@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!-- common css -->
+    <link rel="stylesheet" href="common.css">
+
+    <style>
+        .container {
+            /* background-color: aqua; */
+            width: 70%;
+            margin: 15px auto 0;
+            border: 3px double gray;
+        }
+
+        .container .title {
+            background-color: rgb(163, 161, 161);
+
+            text-align: center;
+            font-size: 2.0em;
+            font-weight: 700;
+            padding: 15px;
+            font-family: '궁서체';
+        }
+
+        .container .sub-title {
+            background-color: #000;
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+
+        .container .sub-title span {
+            color: rgb(248, 248, 15);
+        }
+
+        .container .contents {
+            background-color: rgb(88, 87, 88);
+            padding: 15px;
+            height: 350px;
+        }
+
+        .container .contents * {
+            float: left;
+        }
+
+        .container .contents .content {
+            background-color: tomato;
+            margin: 0.5%;
+            width: 24%;
+            height: 100%;
+        }
+
+        .container .contents .content1 {
+            background-color: rgb(214, 17, 17);
+        }
+
+        .container .contents .content2 {
+            background-color: rgb(212, 9, 178);
+        }
+
+        .container .contents .content3 {
+            background-color: rgb(255, 136, 0);
+        }
+
+        .container .contents .content4 {
+            background-color: rgb(255, 244, 29);
+        }
+
+        .container .contents .content .content-img {
+            /* background-color: skyblue; */
+            width: 95%;
+            height: 50%;
+            margin: 5px;
+        }
+
+        .container .contents .content .content-img1 {
+            background: url('/img/tulip.jpg') no-repeat center;
+        }
+
+        .container .contents .content .content-img2 {
+            background: url('/img/jebi.jpg') no-repeat center;
+        }
+
+        .container .contents .content .content-img3 {
+            background: url('/img/hobak.jpg') no-repeat center;
+        }
+
+        .container .contents .content .content-img4 {
+            background: url('/img/sunflower.jpg') no-repeat center;
+        }
+
+        .container .contents .content .subject {
+            /* background: orange; */
+            margin: 10px 10px 5px;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="container">
+        <h1 class="title">나의 아름다운 정원</h1>
+        <h2 class="sub-title">사람들은 아마 자신에게 <span>자신감을 북돋워 주는</span>표정 있는 꽃들을 선호할 것이다.</h2>
+
+        <div class="contents clearfix">
+
+            <div class="content clearfix content1">
+                <div class="content-img1 content-img"></div>
+                <p class="subject">너무 화려하지 않으며 고귀한 느낌을 가지고 있다.
+                    붉은 색이 단연 으뜸이며 한 송이만 있어도 빼어나다.</p>
+            </div>
+
+            <div class="content clearfix content2">
+                <div class="content-img2 content-img"></div>
+                <p class="subject">드물게 푸른색을 띠고 있으며 작지만 시원해 보이는
+                    어린 꽃이라고 할 수 있다. 여럿이 함께 있을 때 더욱 아름답다.</p>
+            </div>
+
+            <div class="content clearfix content3">
+                <div class="content-img3 content-img"></div>
+                <p class="subject">색도 모양도 화려하며 이름과 걸맞지 않게 아름다운 꽃으로
+                    매우 완숙한 이미지를 풍기는 꽃이다.</p>
+            </div>
+
+            <div class="content clearfix content4">
+                <div class="content-img4 content-img"></div>
+                <p class="subject">태양만 바라보는 일편단심의 꽃으로 얼굴이 큰 편에
+                    속하며 송이가 적어야 제격이다.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
