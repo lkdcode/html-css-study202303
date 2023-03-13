@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- common css -->
+    <link rel="stylesheet" href="common.css">
+    <style>
+        .container {
+            background-color: pink;
+            border: 4px solid lightgray;
+
+            width: 50%;
+            margin: 50px auto 0;
+            padding: 10px;
+
+            position: relative;
+        }
+
+        .container .main {
+            color: green;
+            font-size: 1.8em;
+            font-weight: 700;
+            margin: 15px 5px;
+        }
+
+        .container .content {
+            font-size: 1.2em;
+            line-height: 1.3;
+            margin-left: 20px;
+        }
+
+        .container .content .position {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .container .content .link {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+        <h1 class="main">동물병원 24시</h1>
+        <div class="content">밥 먹이는 시간 지킬 것</div>
+        <div class="content">길고양이 주사 맞히기</div>
+        <div class="content">
+            <a href="#" class="link">눈 아픈 동물 목에 깔때기 씌우기</a>
+        </div>
+        <div class="content">매일 목욕 시킬 것</div>
+        <div class="content">이름없는 애들 이름 짓지 말기</div>
+        <div class="content">
+            <a href="#" class="link position">더보기</a>
+        </div>
+    </section>
+
+</body>
+
+</html>
